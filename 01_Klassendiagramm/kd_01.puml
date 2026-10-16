@@ -1,4 +1,17 @@
+@startuml kd
+!include tools/style.puml
 
+class Kunde{
+    - name: String
+
+    + getName(): String
+    + setName(): void
+
+
+}
+
+
+@enduml
 
 
 
